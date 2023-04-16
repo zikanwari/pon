@@ -23,6 +23,6 @@ jobs:
           images: ghcr.io/zikanwari/pon
       - uses: docker/build-push-action@v2
         with:
-          context: pon/convert
+          context: convert
           push: true
           tags: ghcr.io/zikanwari/pon:convert
