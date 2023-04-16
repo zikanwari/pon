@@ -16,3 +16,4 @@ function pause() {
     a1.currentTime = 0;
     a2.currentTime = 0;
 }
+
