@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'pon/web/**'
+      - 'web/**'
 
 jobs:
   build:
